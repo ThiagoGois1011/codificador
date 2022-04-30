@@ -1,0 +1,217 @@
+
+body{
+	background: #E9ECF8;
+}
+
+.logo{
+	margin: 40px 0 0 60px;
+	fill: #0A3871;
+}
+
+.luz{
+
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	padding: 2px;
+	background: yellow;
+	border-radius: 25px;
+	border: 1px solid black;
+}
+
+.luz:active{
+
+	background: grey;
+}
+
+.escreve-aqui{	
+	width: 45%;
+	margin: 70px 0 0 150px;
+	vertical-align: top;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+	resize: none;
+	color: rgb(10,56,113);
+}
+
+.escreve-aqui::placeholder{
+	color: rgba(10,56,113,0.7);
+
+}
+
+#escreve-aqui1{
+	width: 45%;
+	margin: 70px 0 0 150px;
+	vertical-align: top;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+	resize: none;
+	border-color: #ADB5BD;
+	background: #868E96;
+
+	color: #F0E68C;
+}
+
+#escreve-aqui1::placeholder{
+	color: rgba(240, 230, 140,0.7);
+}
+
+.boneco{
+	margin: 30% 15% 0 15%;
+	width: 70%;
+	height: auto;
+}
+
+.titulo-exibe{
+
+	text-align: center;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 150%;
+	color: rgb(10,56,113);
+}
+
+.conteudo-exibe{
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #495057;
+	margin: 0 10px;
+}
+
+.exibe-texto{
+
+	display: inline-block;
+	width: 100%;
+	height: 90%;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+	resize: none;
+	border: none;
+	background: white ;
+	color: rgb(10,56,113);
+
+}
+
+.copia{
+	width: 90%;
+	padding: 19px;
+	text-align: center;
+	margin: 10px 20px;
+	background: whitesmoke;
+	border: 1px solid #0A3871;
+	box-sizing: border-box;
+	border-radius: 24px;	
+}
+
+.aviso {
+	
+	
+	width: 85%;
+	margin: 50px 0 0 150px;
+	
+}
+.aviso p {
+	display: inline;
+	font-size: 17px;
+	vertical-align: top;
+
+}
+
+.exibe{
+
+	width: 30%;
+	height: 80%;
+	position: absolute;
+	top: 0px;
+	margin: 0 0 0 40px;
+	
+	right: 40px;
+	top: 40px;
+	background: #FFFFFF;
+	
+	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.2);
+	border-radius: 32px;
+	
+}
+
+.exibe-conteudo{
+
+	display: inline-block;
+	
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 150%;
+}
+
+.botao{
+	
+	margin: 20px 0 0 ;
+}
+
+.criptografar{
+	
+	padding: 10px;
+	width: 20%;
+	margin-right: 20px;
+	
+	text-align: center;
+	color: white;
+	background: #0A3871;
+	border-radius: 24px;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.descriptografar{
+
+	display: inline;
+	padding: 10px;
+	width: 20%;
+	margin-right: 20px;
+	text-align: center;
+	color: #0A3871;
+	background: #D8DFE8;
+	border-radius: 24px;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+footer {
+	
+	position: absolute;
+	float: left;
+	bottom: 0;
+	font-weight: bold;
+	color: #CED4DA;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-top: 1.55em;
+	box-sizing: border-box;
+	padding: 20px;
+	background:#343A40 ;
+
+}
+
